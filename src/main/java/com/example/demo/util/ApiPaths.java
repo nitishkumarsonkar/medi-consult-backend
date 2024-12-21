@@ -5,6 +5,7 @@ public class ApiPaths {
 	private static final String PATIENT_PATH = "/patient";
 	private static final String PROBLEM_PATH = "/problem";
 	private static final String RECEIPE_PATH = "/receipe";
+	private static final String PRESCRIPTION_PATH= "/prescription";
 	
 	public static final class PatientCtrl {
 		public static final String CTRL = BASE_PATH + PATIENT_PATH;
@@ -14,5 +15,8 @@ public class ApiPaths {
 	}
 	public static final class ReceipeCtrl {
 		public static final String CTRL = BASE_PATH + RECEIPE_PATH;
+	}
+	public static final class PrescriptionCtrl {
+		public static final String CTRL = BASE_PATH + PRESCRIPTION_PATH;
 	}
 }
